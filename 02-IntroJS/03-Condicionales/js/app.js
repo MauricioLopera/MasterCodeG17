@@ -21,7 +21,7 @@ anioNacimiento = Number(prompt('Digita el año de tu nacimiento'));
 //     resultado = 'Por favor ingresa años validos';
 // }
 
-if(isNaN(anioActual) || isNaN(anioActual))
+if(nombreCompleto != '' || isNaN(anioActual) || isNaN(anioNacimiento))
 {
     resultado = 'Por favor ingresa años validos';
 }
@@ -30,7 +30,9 @@ else
     edad = anioActual - anioNacimiento;
 
     resultado = `Hola ${nombreCompleto}, tu edad aproximada es: ${edad}`;
+    //resultado = 'Hola ' + nombreCompleto + ', tu edad aproximada es:' + edad;
 }
+
 
 
 //Cuarto Paso: Mostrar los resultados
