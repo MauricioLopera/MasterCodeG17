@@ -1,4 +1,4 @@
-let pokemons = ["dito", "pikachu", "charmander", "chicorita", "bulbasaur"];
+const pokemons = ["dito", "pikachu", "charmander", "chicorita", "bulbasaur"];
 
 console.log(`Hay ${pokemons.length} pokemons`);
 
