@@ -44,5 +44,4 @@ for (let i = 0; i < arregloDeNumeros.length; i++) {
   }
   // los dos valores son iguales
 }
-
 console.log(`El número mayor es ${numeroMayor}`);
