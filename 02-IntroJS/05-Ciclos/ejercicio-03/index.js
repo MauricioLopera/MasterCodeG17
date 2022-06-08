@@ -42,6 +42,10 @@ for (let i = 0; i < arregloDeNumeros.length; i++) {
   } else if (valorActual < valorAnterior) {
     numeroMayor = valorAnterior;
   }
-  // los dos valores son iguales
+  // DO: los dos valores son iguales
 }
 console.log(`El número mayor es ${numeroMayor}`);
+
+// Volor inicial.
+// Condición, para detener el loop.
+// Intrucción que aumente el valor inicial, o que modifique el arreglo que estan trabajando.
