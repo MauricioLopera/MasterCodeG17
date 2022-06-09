@@ -35,7 +35,7 @@ const semaforo = {
   anteriorLuz: "",
 }
 
-const { color, siguienteLuz, anteriorLuz, luzActual } = semaforo;
+let { color, siguienteLuz, anteriorLuz, luzActual } = semaforo;
 
 function cambiarLuz() {
   switch (luzActual) {
