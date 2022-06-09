@@ -12,6 +12,8 @@ const gato = {
 };
 gato.nombre = "Bolay";
 
+console.log(gato.nombre);
+
 console.log(gato.edad);
 console.log(gato["edad"]);
 
