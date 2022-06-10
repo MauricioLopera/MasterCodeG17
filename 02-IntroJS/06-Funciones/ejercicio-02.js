@@ -17,3 +17,10 @@ const contarVocales = function(string) {
 
 const misVocales = contarVocales("Gerardo Nava Pereda");
 console.log(misVocales);
+
+function esMultiploDe5(number1, number2) {
+  console.log(number1 % 5);
+  console.log(number2 % 5);
+};
+
+esMultiploDe5(150);
