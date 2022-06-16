@@ -2,8 +2,8 @@
 let planilla = document.getElementById('planilla');
 
 function generar(){
-    let alumnos = document.getElementById('alumnos').value;
-    let notas = document.getElementById('notas').value;
+    let alumnos = Number(document.getElementById('alumnos').value);
+    let notas = Number(document.getElementById('notas').value);
 
     //ciclo para crear filas
     for(let i = 1; i <= alumnos + 1; i++){
