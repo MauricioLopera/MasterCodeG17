@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio JS</title>
+
+    <script defer src="js/app.js"></script>
+</head>
+<body>
+    <h2>Sistema Automatizado de Calificaciones</h2>
+    <div>
+        <label for="">Cantidad Alumnos</label>
+        <input type="number" name="cantidadAlumnos" id="alumnos">
+        <label for="">Cantidad Notas</label>
+        <input type="number" name="cantidadNotas" id="notas">
+        <button onclick="generar()">Generar Planilla</button>
+    </div>
+    <h3>Planilla de Notas</h3>
+    <div>
+        <table id="planilla">
+            
+        </table>
+        <button onclick="calcular()">Generar Definitiva</button>
+    </div>
+    <h4 id="promedioGen">Promedio General:</h4>
+</body>
+</html>
