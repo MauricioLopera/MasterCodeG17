@@ -52,8 +52,8 @@ const tareas = [
     isChecked: false,
   }, */
 ]
-
 // TODO: convertir functions en "arrow functions"(funciones flecha)
+
 // {
 //   id: 0,
 //   texto: "Tarea A",
@@ -159,7 +159,6 @@ function renderizarInputEnLi(id) {
 }
 
 function editarPorId(id) {
-  console.log("editar", id);
   // const index = tareas.findIndex(item => item.id === Number(id));
   const index = tareas.findIndex(item => item.id === id); // con uuid no se tiene que convertir
   const texto = document.getElementById(id).value;
